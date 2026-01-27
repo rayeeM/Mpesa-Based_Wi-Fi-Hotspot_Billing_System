@@ -1,4 +1,4 @@
-# WiFi Billing System
+# Hotspot Management System
 
 A comprehensive WiFi billing system with M-Pesa integration, loan management, and MikroTik hotspot control.
  
@@ -399,4 +399,4 @@ ISC License - see LICENSE file for details.
 
 ## Support
 
-For support, strictly create an issue in the GitHub repository. Conts
+For support, strictly create an issue in the GitHub repository. Contact me only for paid consultations 
