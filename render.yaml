@@ -12,8 +12,8 @@ services:
         value: 10000
       - key: DATABASE_URL
         fromSecret: database_url
-      - key: 4001fdec0578cdc3f139fea4ba96b6948266280be1240ae8c7c241a760e706c31d644e61903500ea5d4bf21c7765b97831449789686b6eb1d84567fa6364b9d3
-        fromSecret: jwt_secret
+      - key: JWT_SECRET
+        fromSecret: 4001fdec0578cdc3f139fea4ba96b6948266280be1240ae8c7c241a760e706c31d644e61903500ea5d4bf21c7765b97831449789686b6eb1d84567fa6364b9d3
       - key: ADMIN_USERNAME
         fromSecret: admin_username
       - key: ADMIN_PASSWORD
