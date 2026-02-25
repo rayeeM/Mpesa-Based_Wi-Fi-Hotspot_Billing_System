@@ -5,6 +5,7 @@ services:
     runtime: node
     buildCommand: npm install && npx prisma generate
     startCommand: npm start
+    environmentGroup: production   # 👈 Linked to production
     envVars:
       - key: NODE_ENV
         value: production
@@ -51,6 +52,7 @@ services:
     runtime: node
     buildCommand: cd frontend && npm install && npm run build
     startCommand: cd frontend && npm start
+    environmentGroup: production   # 👈 Linked to production
     envVars:
       - key: NODE_ENV
         value: production
@@ -64,6 +66,7 @@ services:
   - type: pserv
     name: wifi-billing-db
     runtime: postgres
+    environmentGroup: production   # 👈 Linked to production
     ipAllowList: []  # Only accessible by other services in this project
 
 # Environment groups for different deployment environments
